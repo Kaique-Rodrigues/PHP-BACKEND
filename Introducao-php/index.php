@@ -54,3 +54,21 @@ echo $nome . " "."tem a idade de : " . $idade ."<br>";
 
 
 ?>
+
+<hr>
+
+<?php
+
+    echo "<h1>Opeadores</h1>";
+
+   $numero1 = 10;
+   $numero2 = 20;
+
+   
+echo $resultado1 =  $numero1 + $numero2. "<br>"; //Adição
+ echo  $resultado2 = $numero1 - $numero2. "<br>";; //Subtração   
+echo $resultado3 = $numero1 * $numero2. "<br>"; // Multiplicação
+echo $resultado4 = $numero1 / $numero2. "<br>"; // Divisão
+echo $resultado5 = $numero1 % $numero2. "<br>"; // Resto da Divisão
+echo  $resultado6 = $numero1 ** $numero2. "<br>"; // Potenciação
+?>
