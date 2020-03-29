@@ -125,3 +125,7 @@ break;
 
 ?>
 
+<?php 
+
+    echo "oi<br>";
+?>
