@@ -200,4 +200,8 @@ echo"<h3>While utilizando incremento</h3><br>";
 
 <hr>
 
-        
+        <?php 
+
+            echo "<h1>Funções</h1><br>";
+
+        ?>
