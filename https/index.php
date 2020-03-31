@@ -53,6 +53,7 @@ echo "<h1>HTTPS</h1><br>";
     
 
 
+
         if($_POST != null){
             echo $_POST['idade'];
         }else{

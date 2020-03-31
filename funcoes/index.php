@@ -177,7 +177,7 @@
             echo $id;
         }
 
-        pessoa("jon jones");
+        pessoa("jonh jones");
         
      
      
