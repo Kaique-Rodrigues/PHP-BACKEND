@@ -1,3 +1,38 @@
+ <?php
+ 
+         echo  "<h1>Include e Require</h1><br>";
+     
+  ?>
+
+  
+  
+
+<?php
+ 
+ // include vê o erro mas renderiza, 
+ include_once("./hhf/head.php");
+ 
+ ?> 
+
+
+
+<?php 
+            $titulo = "index";
+            
+            ?>
+
+
+
+
+<?php 
+        // requie vê o erro mas nã0 renderiza , once Não repetira o código
+        require_once("./hhf/header.php");
+        ?>
+
+
+<hr>
+
+
 <?php 
         
         echo "<h1>Funções</h1><br>";
@@ -142,22 +177,11 @@
             echo $id;
         }
 
-        pessoa($id);
+        pessoa("jon jones");
         
      
      
      ?>
-
- <hr>
-
-        <?php  
-       
-       echo  "<h1>Include e Require</h1><br>;"
-       
-       
-       
-       
-       ?>
 
 
 
